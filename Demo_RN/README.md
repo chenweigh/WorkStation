@@ -35,10 +35,11 @@
 
 #### 发布应用更新
 
-- `appcenter codepush release-react -a <ownerName>/<appName> -d Staging -t 1.0.0 -m --development false --description <description>`
-  > `-a`，指定应用
-  > `-d`, 指定发布更新到哪个部署上, 默认 Staging
-  > `-t`, 指定要更新应用得版本
-  > `-m`， 是否强制更新，默认 false
-  > `--development`, 指定是否生成未缩小得开发 js 包，默认 false
-  > `--description`, 更改日志
+`appcenter codepush release-react -a <ownerName>/<appName> -d Staging -t 1.0.0 -m --development false --description <description>`
+
+> `-a`，指定应用
+> `-d`, 指定发布更新到哪个部署上, 默认 Staging
+> `-t`, 指定要更新应用得版本
+> `-m`， 是否强制更新，默认 false
+> `--development`, 指定是否生成未缩小得开发 js 包，默认 false
+> `--description`, 更改日志
