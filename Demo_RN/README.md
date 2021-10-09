@@ -20,7 +20,7 @@
 
 ### `App Center CLI`
 
-> `code push` 的管理工具，`npm install -g appcenter-cli`， [详情介绍](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/cli) url[链接](https://juejin.cn/post/6844904073309716494#%E5%8A%A8%E6%80%81%E9%83%A8%E7%BD%B2%E5%88%86%E9%85%8D)
+> `code push` 的管理工具，`npm install -g appcenter-cli`， [官网](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/cli) [中文解读](https://juejin.cn/post/6844904073309716494#%E5%8A%A8%E6%80%81%E9%83%A8%E7%BD%B2%E5%88%86%E9%85%8D)
 
 #### 新建应用
 
@@ -35,7 +35,7 @@
 
 #### 发布应用更新
 
-`appcenter codepush release-react -a <ownerName>/<appName> -d Staging -t 1.0.0 -m --development false --description <description>`
+```appcenter codepush release-react -a <ownerName>/<appName> -d Staging -t 1.0.0 -m --development false --description <description>```
 
 > `-a`，指定应用
 > `-d`, 指定发布更新到哪个部署上, 默认 Staging
