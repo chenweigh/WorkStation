@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "push-ios": "code-push release-react FeatureDemo-ios ios  --t 1.0.0 --dev false --d Production --des '1.test' --m true",
+    "push-ios-dev": "code-push release-react FeatureDemo-ios ios  --t 1.0.0 --dev false --d Staging --des '1.test' --m true"
   },
   "dependencies": {
     "react": "17.0.2",
