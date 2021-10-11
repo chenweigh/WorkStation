@@ -32,10 +32,11 @@
 
 - `appcenter codepush deployment add -a <ownerName>/<appName> Staging`
 - `appcenter codepush deployment add -a <ownerName>/<appName> Production`
+- 例子:`appcenter codepush deployment add -a ElevenChen/Feature-android Staging`
 
 #### 发布应用更新
 
-```appcenter codepush release-react -a <ownerName>/<appName> -d Staging -t 1.0.0 -m --development false --description <description>```
+`appcenter codepush release-react -a <ownerName>/<appName> -d Staging -t 1.0.0 -m --development false --description <description>`
 
 > `-a`，指定应用
 > `-d`, 指定发布更新到哪个部署上, 默认 Staging

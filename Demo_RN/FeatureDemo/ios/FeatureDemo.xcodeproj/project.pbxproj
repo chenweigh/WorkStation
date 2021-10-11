@@ -490,6 +490,7 @@
 				CODE_PUSH_KEY = "";
 				CODE_PUSH_URL = "https://cp.ledou001.com";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMH67SK49Y;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FeatureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,6 +519,7 @@
 				CODE_PUSH_KEY = dfPgFgDseQYde0W5iubSVi5Aqvoh0nsniEs_m;
 				CODE_PUSH_URL = "https://cp.ledou001.com";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMH67SK49Y;
 				INFOPLIST_FILE = FeatureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,6 +605,7 @@
 				CODE_PUSH_KEY = rhYQHNrZdOivs79MXakFJP2yH3q8xehJH2hIh;
 				CODE_PUSH_URL = "https://cp.ledou001.com";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PMH67SK49Y;
 				INFOPLIST_FILE = FeatureDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

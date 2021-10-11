@@ -8,8 +8,9 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "push-ios": "code-push release-react FeatureDemo-ios ios  --t 1.0.0 --dev false --d Production --des '1.test' --m true",
-    "push-ios-dev": "code-push release-react FeatureDemo-ios ios  --t 1.0.0 --dev false --d Staging --des '1.test' --m true"
+    "push-ios-old": "code-push release-react FeatureDemo-ios ios  --t 1.0.0 --dev false --d Production --des '1.test' --m true",
+    "push-ios-dev": "code-push release-react FeatureDemo-ios ios  --t 1.0.0 --dev false --d Staging --des '1.test' --m true",
+    "push-ios": "appcenter codepush release-react -a ElevenChen/Feature-ios -d Production -t 1.0.1 -m --development false --description 测试"
   },
   "dependencies": {
     "react": "17.0.2",
